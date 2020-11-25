@@ -22,7 +22,7 @@ def findItemsInBoth (list1, list2):
 			list3.append (item)
 	return list3
 ```
-[list to set](https://stackoverflow.com/questions/15768757/how-to-construct-a-set-out-of-list-items-in-python)
+[list to set](https://stackoverflow.com/questions/15768757/how-to-construct-a-set-out-of-list-items-in-python)  
 [set to list](https://www.geeksforgeeks.org/python-convert-set-into-a-list/)
 
 ### 28

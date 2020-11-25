@@ -1,7 +1,7 @@
 # 1091-Python-THU HW7
 
 ### 24
-如果這個程式跑第二次會發生什麼？(假設執行目錄下原本沒有`ABC.txt`這個檔案)
+如果這個程式跑第二次會發生什麼？(假設執行目錄下原本沒有"ABC.txt"這個檔案)
 ``` python
 import os.path
 if os.path.isfile ("ABC.txt"):
@@ -22,6 +22,8 @@ def findItemsInBoth (list1, list2):
 			list3.append (item)
 	return list3
 ```
+[list to set](https://stackoverflow.com/questions/15768757/how-to-construct-a-set-out-of-list-items-in-python)
+[set to list](https://www.geeksforgeeks.org/python-convert-set-into-a-list/)
 
 ### 28
 ``` python
@@ -58,7 +60,7 @@ The average of the numbers in the file Numbers.txt is 5.0.
 檔案`SomePlayers.txt`包含了30名美式足球選手的名字。寫一個程式移除檔案中所有不以母音開頭的名字。
 
 
-## 從這裡開始可以使用list
+
 ### 44
 `PresStates.txt`中包含了44行曾出過美國總統的洲名。前四行依序為：
 ```

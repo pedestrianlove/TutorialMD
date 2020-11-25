@@ -41,6 +41,7 @@ print出`Numbers.txt`中數字的數量，如下：
 ```
 The file Numbers.txt contains 6 numbers.
 ```
+[length of set](https://www.w3resource.com/python-exercises/sets/python-sets-exercise-15.php)
 
 ### 36
 print出`Numbers.txt`中最小的數字，如下：

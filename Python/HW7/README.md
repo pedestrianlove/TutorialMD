@@ -23,7 +23,8 @@ def findItemsInBoth (list1, list2):
 	return list3
 ```
 [list to set](https://stackoverflow.com/questions/15768757/how-to-construct-a-set-out-of-list-items-in-python)  
-[set to list](https://www.geeksforgeeks.org/python-convert-set-into-a-list/)
+[set to list](https://www.geeksforgeeks.org/python-convert-set-into-a-list/)  
+[intersection](https://www.geeksforgeeks.org/intersection-function-python/)
 
 ### 28
 ``` python

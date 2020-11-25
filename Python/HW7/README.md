@@ -32,4 +32,48 @@ for name in names:
 print (setLN)
 ```
 
+## 34 ~ 42 不可使用list來完成指定的目標
+### 34
+print出`Numbers.txt`中數字的數量，如下：
+```
+The file Numbers.txt contains 6 numbers.
+```
 
+### 36
+print出`Numbers.txt`中最小的數字，如下：
+```
+The smallest number in the file Numbers.txt is 2.
+```
+
+### 38
+print出`Numbers.txt`中數字的平均值，如下：
+```
+The average of the numbers in the file Numbers.txt is 5.0.
+```
+
+### 40
+檔案`SomeMonths.txt`包含了12個月份的名稱。寫出一個程式移除檔案中所有不含r字元的月份。
+
+### 42
+檔案`SomePlayers.txt`包含了30名美式足球選手的名字。寫一個程式移除檔案中所有不以母音開頭的名字。
+
+
+
+### 44
+`PresStates.txt`中包含了44行曾出過美國總統的洲名。前四行依序為：
+```
+Virginia
+Massachusetts
+Virginia
+Virginia
+...
+```
+寫一個程式來去除檔案中所有重複的洲名，並顯示出共有幾個洲産生過總統。如下：
+```
+18 different states have produced presidents of the United States.
+```
+
+### 46
+`Names.txt`檔案包含了一些以字母順排序的first name。
+寫一個程式來跟使用者索取名字，並把名字放入檔案中適當的位置。
+如果檔案中已有該姓名，則不可放入。

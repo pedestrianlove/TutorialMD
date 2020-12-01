@@ -120,6 +120,7 @@ Holster		|	2.00	 |
 Levi Strauss jeans |	1.35	 |
 Saddle		|	40.00	 |
 Stetson		|	10.00	 |
+
 生成一個包含上述表格資訊的檔案`Cowboy.txt`，並用於24、26的作答。
 
 #### 24

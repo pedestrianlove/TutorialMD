@@ -70,5 +70,60 @@ Augusta Ada Byron was the first computer programmer.
 
 ### 18題使用`Colleges.txt`這個檔案。
 `Colleges.txt`內每筆資料的格式依序為：名字、州、成立年份。
-
+該檔案的前四行為：
+```
+Harvard University,MA,1636
+William and Mary College,VA,1693
+Yale University,CT,1701
+University of Pennsylvania,PA,1740
+```
 #### 18
+寫一個程式來索取洲的簡寫，並輸出該洲在1800年前最後成立的大學。
+如下所示：
+```
+Enter a state abbreviation: PA
+Last college in PA founded before 1800:
+Univeristy of Pittsburgh
+```
+
+### 20題使用`StatesANC.txt`這個檔案。
+`StatesANC.txt`內每筆資料的格式依序為：洲名、洲名簡寫、外號、洲首府。
+
+#### 20
+寫一個程式來索取洲名，並顯示它的簡寫、外號以及洲首府。
+如下所示：
+```
+Enter the name of a state: Ohio
+Abbreviation: OH
+Nickname: Buckeye State
+Capital: Columbus
+```
+
+### 22題使用`Oscars.txt`這個檔案。
+`Oscars.txt`內每筆資料的格式依序為：得獎作品名、得獎作品種類。
+
+#### 22
+寫一個程式來索取年份，並秀出該年份的最佳得獎作品名及其種類。
+如下所示：
+```
+Enter year from 1928-2013: 2012
+Best Film: Argo
+Genre: drama
+```
+
+
+### 24、26參見下方表格。
+Item		|	Price ($)|
+:---------------|---------------:|
+Colt Peacemaker |	12.20    |
+Holster		|	2.00	 |
+Levi Strauss jeans |	1.35	 |
+Saddle		|	40.00	 |
+Stetson		|	10.00	 |
+生成一個包含上述表格資訊的檔案`Cowboy.txt`，並用於24、26的作答。
+
+#### 24
+假設saddle打了八折。使用`Cowboy.txt`建立一個新檔案：`Cowboy2.txt`來放入新的價位表。
+
+#### 26
+寫一個程式來在`Cowboy.txt`的最後一行加上`Winchester Rifle,20.50`。

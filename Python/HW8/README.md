@@ -146,6 +146,7 @@ The most hits by one of the baseball players was 2873.
 法官名:{'pres':"總統名", 'yrLeft':"離職年份", 'yrAppt':"上崗年份", 'state':"指定的洲"}
 ```
 注意dictionary沒有順序!
+
 #### 52
 寫一個程式來索取洲名簡寫並秀出該洲所有法官的名字、上崗年份。
 如下所示：
@@ -154,10 +155,19 @@ Enter a state abbreviation: NH
 David Souter		1990
 Levi Woodbury		1845
 ```
-### 54
 
-
-
+#### 54
+寫一個程式來秀出所有產生過法官的洲、及其數量。輸出應以字母排序。
+如下所示：
+```
+31 states have produced justices.
+    AL: 3
+    AZ: 2
+    CA: 5
+    CO: 1
+    CT: 3
+    ...
+```
 
 #### 56
 `Rosebowl.txt`這個檔案包含了直至2014所有Rose Bowl的winner(以年份排序)。

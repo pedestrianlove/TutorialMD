@@ -46,7 +46,7 @@ Levi Woodbury	Polk			6
 
 
 #### 16
-`Poineers.txt`這個檔案包含了一些電腦創新者的名字以及他們的成就。
+`Pioneers.txt`這個檔案包含了一些電腦創新者的名字以及他們的成就。
 檔案的前三行為：
 ```
 Charles Babbage,is called the father of the computer.
@@ -128,3 +128,77 @@ Stetson		|	10.00	 |
 
 #### 26
 寫一個程式來在`Cowboy.txt`的最後一行加上`Winchester Rifle,20.50`。
+
+
+
+## 5.3
+#### 50
+(這應該是個題組的最後一題，所以如果有人有前面的題目請再拍給我)
+寫一個程式來找出三人中的最高累計打擊數。該程式要用max來實作。
+如下所示：
+```
+The most hits by one of the baseball players was 2873.
+```
+
+### 52、54題會用到`JusticesDict.dat`
+該檔案格式為：
+```
+法官名:{'pres':"總統名", 'yrLeft':"離職年份", 'yrAppt':"上崗年份", 'state':"指定的洲"}
+```
+注意dictionary沒有順序!
+#### 52
+寫一個程式來索取洲名簡寫並秀出該洲所有法官的名字、上崗年份。
+如下所示：
+```
+Enter a state abbreviation: NH
+David Souter		1990
+Levi Woodbury		1845
+```
+### 54
+
+
+
+
+#### 56
+`Rosebowl.txt`這個檔案包含了直至2014所有Rose Bowl的winner(以年份排序)。
+寫一個程式秀出所有win了四場以上的隊伍。隊伍應以勝出場數遞減排序。
+如下所示：
+```
+Teams with four or more Rose Bowl wins as of 2014:
+    USC: 24
+    Washington: 8
+    Michigan: 8
+    Ohio State: 7
+    Stanford: 6
+    UCLA: 5
+    Alabama: 4
+    Michigan State: 4
+```
+
+#### 58
+使用`USpresStatesDict.dat`這個檔案，索取一個first name並秀出所有符合的總統名。如果找不到的話就print找不到。
+如下所示：
+```
+Enter a first name: John
+    John Adams
+    John Q. Adams
+    John Kennedy
+    John Tyler
+```
+
+### 60題應使用`LargeCitiesDict.dat`來作答
+該檔案的格式為：
+```
+洲名:該洲的大城市
+```
+#### 60
+寫一個程式來索取洲名並秀出其所包含的大城市。
+如下所示：
+```
+Enter the name of a state: Arizona
+Large cities: Phoenix Tucson Mesa
+```
+```
+Enter the name of a state: Alabama
+There are no large cities in Alabama.
+```

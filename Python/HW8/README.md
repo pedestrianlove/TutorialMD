@@ -212,3 +212,85 @@ Large cities: Phoenix Tucson Mesa
 Enter the name of a state: Alabama
 There are no large cities in Alabama.
 ```
+
+
+## Programming Projects
+
+#### 1 (Equivalent lengths, 長度單位換算)
+
+|1 inch = .083333 foot | 1 rod = 16.5 feet|
+|----------------------|------------------|
+|1 yard = 3 feet       | 1 furlongg = 660 feet |
+|1 meter = 3.28155 feet| 1 kilometer = 3281.5 feet|
+|1 fathom = 6 feet | 1 mile = 5280 feet |
+
+寫一個程式來秀出九種不同的長度單位名稱，並向使用者索取要轉換的來源及目的單位名稱，再把使用者所指定的長度轉換成指定的單位。
+如下所示：
+```
+UTINS OF LENGTH
+inches	furlongs	yards
+rods	miles		fathoms
+meters	kilometers	feet
+
+Units to convert  from: yards
+Units to convert to: miles
+Enter length in yards: 555
+Length in miles: 0.3153
+```
+
+#### 2 (Curve Grades)
+\[avg = \frac{x_1+x_2+\cdots +x_n}{n}\]
+\[std = \sqrt {\frac{(x_1-avg)^2+(x_2-avg)^2+\cdots +(x_n-avg)^2}{n}}\]
+`Scores.txt`這個檔案包含了考試的成績。  
+寫一個程式來計算出他們的平均值和成績，並依以下的公式來換算成等第：
+\[ES \geq m + 1.5s\] --> A
+\[m + .5s \leq ES < m + 1.5s\] --> B
+\[m - .5s \leq ES < m + .5s\] --> C
+\[m - 1.5s \leq ES < m - .5s\] --> D
+\[ES < m - 1.5s\] --> F
+
+如下所示：
+```
+Number of scores: 14
+Average score: 71.0
+Standard deviation of scores: 14.42
+GRADE DISTRIBUTION AFTER CURVING GRADES:
+A: 2	B: 1	C: 6	D: 4	F: 1
+```
+像是，如果avg = 70, s = 12，則88分以上都會得到A等第。
+
+
+#### 3 (Baseball)
+`ALE.txt`這個檔案包含了以下的資訊：
+
+|Team 			| Won			|Lost			|
+|-----------------------|-----------------------|-----------------------|
+|Baltimore       	| 96			|66			|
+|Boston			| 71			|91			|
+|New York		| 84			|78			|
+|Tampa Bay 		| 77			|85			|
+|Toronto		| 83			|79			|
+
+寫一個程式來把`ALE.txt`改寫成如下：
+
+|Team 			| Won			|Lost			|%  |
+|-----------------------|-----------------------|-----------------------|----|
+|Baltimore       	| 96			|66			|0.593|
+|New York		| 84			|78			|0.512|
+|Toronto		| 83			|79			|0.438|
+|Tampa Bay 		| 77			|85			|0.475|
+|Boston			| 71			|91			|0.519|
+
+%為勝的百分比。請依此數值遞減排列。
+
+#### 4 (U.S. Senate)
+`Senate113.txt`這個檔案包含了所有第113屆的美國立法會成員名字，也就是2014選前的立法會成員。每一筆資料都包含了：(名字、洲別、黨別)
+`RetiredSen.txt`這個檔案包含了所有第113屆因敗選、退休或死亡而離開的美國立法會成員名字，也就是2014選後離開的立法會成員。每一筆資料都包含了：(名字、洲別、黨別)
+`NewSen.txt`這個檔案包含了所有第114屆因勝選而加入的美國立法會成員名字，也就是2014選後加入的立法會成員。每一筆資料都包含了：(名字、洲別、黨別)
+
+##### a
+寫一個程式來建立`Senate114.txt`這個檔案。裡面應包含114屆的立法會成員。（參考`Senate113.txt`）
+
+##### b
+寫一個程式來計算出黨員的分部數量。
+	

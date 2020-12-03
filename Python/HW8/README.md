@@ -243,12 +243,12 @@ Length in miles: 0.3153
 \[avg = \frac{x_1+x_2+\cdots +x_n}{n}\]
 \[std = \sqrt {\frac{(x_1-avg)^2+(x_2-avg)^2+\cdots +(x_n-avg)^2}{n}}\]
 `Scores.txt`這個檔案包含了考試的成績。  
-寫一個程式來計算出他們的平均值和成績，並依以下的公式來換算成等第：
-\[ES \geq m + 1.5s\] --> A.  
-\[m + .5s \leq ES < m + 1.5s\] --> B.  
-\[m - .5s \leq ES < m + .5s\] --> C.  
-\[m - 1.5s \leq ES < m - .5s\] --> D.  
-\[ES < m - 1.5s\] --> F.  
+寫一個程式來計算出他們的平均值和成績，並依以下的公式來換算成等第：  
+$\[ES \geq m + 1.5s\]$ --> A.  
+$\[m + .5s \leq ES < m + 1.5s\]$ --> B.  
+$\[m - .5s \leq ES < m + .5s\]$ --> C.  
+$\[m - 1.5s \leq ES < m - .5s\]$ --> D.  
+$\[ES < m - 1.5s\]$ --> F.  
 
 如下所示：
 ```

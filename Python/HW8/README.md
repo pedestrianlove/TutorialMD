@@ -240,8 +240,8 @@ Length in miles: 0.3153
 ```
 
 #### 2 (Curve Grades)
-\[avg = \frac{x_1+x_2+\cdots +x_n}{n}\]
-\[std = \sqrt {\frac{(x_1-avg)^2+(x_2-avg)^2+\cdots +(x_n-avg)^2}{n}}\]
+- <img src="https://latex.codecogs.com/gif.latex?O_t=\text {\[avg = \frac{x_1+x_2+\cdots +x_n}{n}\]} t " /> 
+- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> \[std = \sqrt {\frac{(x_1-avg)^2+(x_2-avg)^2+\cdots +(x_n-avg)^2}{n}}\]
 `Scores.txt`這個檔案包含了考試的成績。  
 寫一個程式來計算出他們的平均值和成績，並依以下的公式來換算成等第：  
 $ES \geq m + 1.5s$ --> A.  

@@ -22,7 +22,7 @@ Stephen Jobs,founded Apple Computer Inc
 Dennis Ritchie,invented the C programing language
 Ken Thompson,created Unix operating system
 Alan Kay,developed first object-oriented language
-Tim Berners–Lee,invented the World Wide Web
+Tim Berners Lee,invented the World Wide Web
 Charles Simonyi,developed Word
 Bjarne Stroustrup,created C++
 Richard M. Stallman,founded Free Software Foundation

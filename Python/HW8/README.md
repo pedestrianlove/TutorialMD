@@ -240,6 +240,7 @@ Length in miles: 0.3153
 ```
 
 #### 2 (Curve Grades)
+- <img src="https://latex.codecogs.com/gif.latex?avg%20%3D%20%5Cfrac%7Bx_1%20&plus;%20x_2%20&plus;%20%5Ccdots%20&plus;x_n%7D%7Bn%7D">
 - <img src="https://render.githubusercontent.com/render/math?math=avg = \frac{x_1 + x_2 + \cdots +x_n}{n}"> 
 - <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> \[std = \sqrt {\frac{(x_1-avg)^2+(x_2-avg)^2+\cdots +(x_n-avg)^2}{n}}\]
 `Scores.txt`這個檔案包含了考試的成績。  

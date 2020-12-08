@@ -1,3 +1,13 @@
+# function area
+def find_min (i, arr): # find min from i to end of arr
+        min_idx = i
+        # 找出最小值所在的index (j從i項開始跑)
+        for j in range (i, len (arr)):
+                if arr[min_idx] > arr[j]:
+                        min_idx = j
+        return min_idx
+
+
 # input
 arr = input ("Enter a list of numbers seperated by spaces: ").strip ().split ()
 
@@ -8,10 +18,8 @@ for i in range (len (arr)):
         # 先假設沒找到比i項更小的值的話, 誰要跟i項交換(i自己)
         min_idx = i
 
-        # 找出最小值所在的index (j從i項開始跑)
-        for j in range (i, len (arr)):
-                if arr[min_idx] > arr[j]:
-                        min_idx = j
+        # 找出最小值所在的index
+        min_idx = find_min (i, arr)
 
         # 把最小值放在arr的第i個位置 (i以前的已排好了)
         arr[i], arr[min_idx] = arr[min_idx], arr[i]

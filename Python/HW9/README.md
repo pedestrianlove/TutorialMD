@@ -25,7 +25,7 @@ print (random.sample (sth, 2))
 ```python
 ['apple', 'strawberries']
 ```
-也就是在原本的物件中，隨機取出`size=2`個，並做成list回傳。
+也就是在原本的物件中，隨機取出`size=2`個元素，並做成list回傳。
 
 ### `random.shuffle (sth)`
 `sth`在這裡是list。使用方法如下:

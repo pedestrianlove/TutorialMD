@@ -39,7 +39,7 @@ print (sth)
 ['pineapple', 'orange', 'apple', 'strawberries']
 
 ```
-也就是把順序打亂之後再做成list回傳。
+也就是把原本的物件的順序直接打亂(會改變原本的物件)。
 
 
 ## 6.1

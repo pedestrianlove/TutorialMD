@@ -1,7 +1,7 @@
 # 10901-Python-THU HW9
 
 ## 6.1
-`stateCapital`這個list的構造需要用`StateANC.txt`來完成。
+`stateCapital`這個list的構造需要用`StatesANC.txt`來完成。
 ### 30 (State Capitals)
 假設`stateCapitals`這個list包含了50個美國的洲首府。  
 寫一段小程式來跟使用者索取一個洲首府的名字，並把其從該list中移除。

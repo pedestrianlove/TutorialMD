@@ -1,5 +1,47 @@
 # 10901-Python-THU HW9
 
+## `random`的用法
+其中又有分:
+### `random.randint (x, y)`
+如果我今天使用了`random.randint (x, y)`:
+```python
+x = 1
+y = 5
+print (random.randint (x, y))
+```
+
+就會生出：  
+1 ~ 5的其中一個數字。(包含了x=1, y=5本身)  
+也就是1 or 2 or 3 or 4 or 5的其中一個數字。
+
+### `random.sample (sth, size)`
+如果我今天使用了`random.sample (sth, size)`，就可以print出以下的東西:  
+(`sth`今天可以是所有包含一系列元素的物件，如list, set, tuple, string)
+```python
+sth = ['apple', 'orange', 'pineapple', 'strawberries']
+print (random.sample (sth, 2))
+```
+就可能會生出:
+```python
+['apple', 'strawberries']
+```
+也就是在原本的物件中，隨機取出`size=2`個，並做成list回傳。
+
+### `random.shuffle (sth)`
+`sth`在這裡可以是list, tuple或字串。使用方法如下:
+```python
+sth = ['apple', 'orange', 'pineapple', 'strawberries']
+random.shuffle (sth)
+print (sth)
+```
+就可能會print出:
+```python
+['pineapple', 'orange', 'apple', 'strawberries']
+
+```
+也就是把順序打亂之後再做成list回傳。
+
+
 ## 6.1
 `stateCapital`這個list的構造需要用`StatesANC.txt`來完成。
 ### 30 (State Capitals)

@@ -28,7 +28,7 @@ print (random.sample (sth, 2))
 也就是在原本的物件中，隨機取出`size=2`個，並做成list回傳。
 
 ### `random.shuffle (sth)`
-`sth`在這裡可以是list, tuple或字串。使用方法如下:
+`sth`在這裡是list。使用方法如下:
 ```python
 sth = ['apple', 'orange', 'pineapple', 'strawberries']
 random.shuffle (sth)

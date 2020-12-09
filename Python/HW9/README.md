@@ -39,7 +39,7 @@ Player 2 wins.
 
 ### 20 (Powerball Lottery)
 該樂透的中獎號碼的産生方式為：  
-隨機從編號1~59的白球中取出5顆，並1~35的紅球中選出一顆(Powerball)。
+隨機從編號1 ~ 59的白球中取出5顆，並1~35的紅球中選出一顆(Powerball)。
 寫出一個程式來模擬100,000次的白球選取，每次都取出五顆。找出該五顆球具有兩個(含)以上連續的數字的機會。
 ```
 31% of the time there were at least two consecutive numbers in the set of five numbers.

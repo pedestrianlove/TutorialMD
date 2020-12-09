@@ -44,6 +44,7 @@ Player 2 wins.
 ```
 31% of the time there were at least two consecutive numbers in the set of five numbers.
 ```
+Note: 可以利用random.sample ((range (1, 60)), 5)的方法來産生隨機結果。
 
 ### 22 (Locate First Ace)
 假設你洗了一疊52張牌的牌組，並一張一張翻開直到看見第一張A為止。  

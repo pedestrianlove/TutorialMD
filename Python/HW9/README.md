@@ -5,6 +5,7 @@
 ### `random.randint (x, y)`
 如果我今天使用了`random.randint (x, y)`:
 ```python
+import random
 x = 1
 y = 5
 print (random.randint (x, y))
@@ -18,6 +19,7 @@ print (random.randint (x, y))
 如果我今天使用了`random.sample (sth, size)`，就可以print出以下的東西:  
 (`sth`今天可以是所有包含一系列元素的物件，如list, set, tuple, string)
 ```python
+import random
 sth = ['apple', 'orange', 'pineapple', 'strawberries']
 print (random.sample (sth, 2))
 ```
@@ -30,6 +32,7 @@ print (random.sample (sth, 2))
 ### `random.shuffle (sth)`
 `sth`在這裡是list。使用方法如下:
 ```python
+import random
 sth = ['apple', 'orange', 'pineapple', 'strawberries']
 random.shuffle (sth)
 print (sth)

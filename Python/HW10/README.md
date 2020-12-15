@@ -20,28 +20,28 @@
 
 ### 22~26, 除了24是正方形之外，高寛比皆為2:3
 #### 22
-畫出Niger的國旗:
+畫出Niger的國旗:  
 ![](https://i.imgur.com/IGGQjlN.png)
 
 
 #### 24
-畫出Switzerland的國旗:
+畫出Switzerland的國旗:  
 ![](https://i.imgur.com/qc0F65m.png)
 
 
 #### 26
-畫出Panama的國旗:
+畫出Panama的國旗:  
 ![](https://i.imgur.com/5GImNme.png)
 
 
 #### 28 (High Schools)
-畫出以下長條圖:
+畫出以下長條圖:  
 ![](https://i.imgur.com/wUTffbl.png)
 
 
 #### 30 (Life Goals)
-![](https://i.imgur.com/k9rhqaM.png)
-使用以上數據畫出以下線條圖：
+![](https://i.imgur.com/k9rhqaM.png)  
+使用以上數據畫出以下線條圖：  
 ![](https://i.imgur.com/mFPuIn5.png)
 
 

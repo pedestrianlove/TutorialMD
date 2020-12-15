@@ -1,6 +1,9 @@
 # 10901 Python HW10
 
 ## 6.3
+### 畫筆顏色參考
+![](https://i.imgur.com/y1KoWNA.png)
+
 ### 第1~8題，不可以使用`drawLine`, `drawRectangle`, `drawFilledRectangle`或`drawDot`函數。
 
 #### 2.

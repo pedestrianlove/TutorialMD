@@ -21,6 +21,7 @@
 ### 22~26, 除了24是正方形之外，高寛比皆為2:3
 #### 22
 畫出Niger的國旗:
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ![] (https://imgur.com/oOXO8tQ.png)
 
 #### 24

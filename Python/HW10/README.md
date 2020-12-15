@@ -16,29 +16,29 @@
 畫出一個正三角形，邊長為100 pixel。
 
 #### 10 ~ 20
-![image] (https://imgur.com/32gWWn8.png)
+![] (https://imgur.com/32gWWn8.png)
 
 ### 22~26, 除了24是正方形之外，高寛比皆為2:3
 #### 22
 畫出Niger的國旗:
-![image] (https://imgur.com/oOXO8tQ.png)
+![] (https://imgur.com/oOXO8tQ.png)
 
 #### 24
 畫出Switzerland的國旗:
-![image] (https://imgur.com/QKDnIMO.png)
+![] (https://imgur.com/QKDnIMO.png)
 
 #### 26
 畫出Panama的國旗:
-![image] (https://imgur.com/iMggmAL.png)
+![] (https://imgur.com/iMggmAL.png)
 
 #### 28 (High Schools)
 畫出以下長條圖:
-![image] (https://imgur.com/N7vCgyY.png)
+![] (https://imgur.com/N7vCgyY.png)
 
 #### 30 (Life Goals)
-![image] (https://imgur.com/B8jka64.png)
+![] (https://imgur.com/B8jka64.png)
 使用以上數據畫出以下線條圖：
-![image] (https://imgur.com/3miirJT.png)
+![] (https://imgur.com/3miirJT.png)
 
 
 

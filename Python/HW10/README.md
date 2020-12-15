@@ -16,7 +16,7 @@
 畫出一個正三角形，邊長為100 pixel。
 
 #### 10 ~ 20
-![](https://i.imgur.com/oSUaky1.png)
+[Imgur](https://imgur.com/32gWWn8)
 ![image] (https://imgur.com/32gWWn8.png)
 
 ### 22~26, 除了24是正方形之外，高寛比皆為2:3

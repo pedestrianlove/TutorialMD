@@ -51,3 +51,38 @@
 
 
 ## 6.4
+
+#### 8. (Sequence of Numbers)
+考慮以下程式碼：
+```python
+def displaySequenceOfNumbers (m, n):
+	while m <= n:
+		print (m)
+		m = m + 1
+```
+請將以上程式片段改寫為recursive的形式。
+
+#### 10. (Fibonacci Sequence)
+求出費氏數列的第n項。該數列從第一項開始依序為: 1, 1, 2, 3, 5, 8, 13...
+```
+Enter a positive integer: 7
+Fibonacci number: 13
+```
+
+#### 12. (Mortgage)
+房貣計算方式如下：  
+p: 貨款額度  
+pmt: 月付額  
+r: 年rate  
+n: 年份  
+balance函數則表示在n年時所欠的款項。 (note: 在n=0時，balance為p)  
+```python
+balance (p, pmt, r, n) = (1 + (r / 1200)) * balance (p, pmt, r, n - 1) - pmt
+```
+```
+Enter the principal: 204700
+Enter the annual rate of interest: 4.8
+Enter the monthly payment: 1073.99
+Enter the number of monthly payments made: 300
+The amount still owed is $57,188.74.
+```

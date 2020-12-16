@@ -43,6 +43,7 @@
 
 
 #### 30 (Life Goals)  
+https://hackmd.io/@CenUAgSSTy2Vkc9K3Lxvsw/r1Q2g_Dnv
 ![](https://i.imgur.com/uafQxvk.png)  
 使用以上數據畫出以下線條圖：  
 ![](https://i.imgur.com/mFPuIn5.png)

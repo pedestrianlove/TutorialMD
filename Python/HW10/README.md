@@ -42,9 +42,8 @@
 ![](https://i.imgur.com/wUTffbl.png)
 
 
-#### 30 (Life Goals)
-![](https://i.imgur.com/uafQxvk.png)  
-![](https://i.imgur.com/uafQxvk.png)  
+#### 30 (Life Goals)  
+![image](https://i.imgur.com/uafQxvk.png)  
 使用以上數據畫出以下線條圖：  
 ![](https://i.imgur.com/mFPuIn5.png)
 

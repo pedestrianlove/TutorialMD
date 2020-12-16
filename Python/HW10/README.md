@@ -74,8 +74,8 @@ Fibonacci number: 13
 p: 貨款額度  
 pmt: 月付額  
 r: 年rate  
-n: 年份  
-balance函數則表示在n年時所欠的款項。 (note: 在n=0時，balance為p)  
+n: 期數  
+balance函數則表示在經過n期後所欠的款項。 (note: 在n=0時，balance為p)  
 ```python
 balance (p, pmt, r, n) = (1 + (r / 1200)) * balance (p, pmt, r, n - 1) - pmt
 ```

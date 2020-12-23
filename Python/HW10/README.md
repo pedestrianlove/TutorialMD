@@ -18,7 +18,7 @@
 #### 8.
 畫出一個正三角形，邊長為100 pixel。
 
-#### 10 ~ 20
+#### 10, 12, 14, 16, 18, 20
 ![](https://i.imgur.com/quItTpo.png)
 
 ### 22~26, 除了24是正方形之外，高寛比皆為2:3
@@ -42,8 +42,9 @@
 ![](https://i.imgur.com/wUTffbl.png)
 
 
-#### 30 (Life Goals)
-![](https://i.imgur.com/k9rhqaM.png)  
+#### 30 (Life Goals)  
+https://hackmd.io/@CenUAgSSTy2Vkc9K3Lxvsw/r1Q2g_Dnv
+![](https://i.imgur.com/uafQxvk.png)  
 使用以上數據畫出以下線條圖：  
 ![](https://i.imgur.com/mFPuIn5.png)
 
@@ -74,8 +75,8 @@ Fibonacci number: 13
 p: 貨款額度  
 pmt: 月付額  
 r: 年rate  
-n: 年份  
-balance函數則表示在n年時所欠的款項。 (note: 在n=0時，balance為p)  
+n: 期數  
+balance函數則表示在經過n期後所欠的款項。 (note: 在n=0時，balance為p)  
 ```python
 balance (p, pmt, r, n) = (1 + (r / 1200)) * balance (p, pmt, r, n - 1) - pmt
 ```

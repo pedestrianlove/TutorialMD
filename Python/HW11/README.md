@@ -141,9 +141,39 @@ Have a good day.
 ```
 
 ## 7.2
+#### 10 (學期成績)
+修改Example 2，使其只顯示出通過該課程同學的姓名。
 
+#### 12 (學期成績)
+假設用等第制的(LG)學生就是全職(full-time)的學生、只看通過不通過的(PF)有可能半工半讀(part-time)但也有可能全職。
+修改Example 2，使其有自己的`__str__`方法(使用多型實作)。
+輸出應包含學生的姓名、成績和狀態。
+```
+Enter student's name: Bob
+Enter student's grade on midterm exam: 79
+Enter student's grade on final exam: 85
+Enter category (LG or PF): LG
+Do you want to continue (Y/N)?  Y
+Enter student's name: Alice
+Enter student's grade on midterm exam: 92
+Enter student's grade on final exam: 96
+Enter category (LG or PF): PF
+Are you a full-time student (Y/N)? N
+Do you want to continue (Y/N)? N 
 
-
+NAME	GRADE	STATUS
+Alice	Pass	Part-time student
+Bob	B	Full-time student
+```
+### Mortgage
+#### 14
+寫一個程式使用上述的`Mortgage` class來索取貨額、rate、貨的時長，並計算出月付額。
+```
+Enter principal of mortgage: 350000
+Enter percent interest rate: 5.25
+Enter duration of mortgage in years: 30
+Monthly payment: $1,932.71
+```
 
 ## 8.1
 
